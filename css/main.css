@@ -7,7 +7,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: rgb(3, 178, 62); */
 }
 
 .header .logo {
@@ -81,12 +80,6 @@
 
 /* end header================================= */
 
-
-
-
-
-
-
 /* <!-- start landing page =============================================== --> */
 .landing {
   background-image: url(../images/landing.jpg);
@@ -120,12 +113,6 @@
 
 /* <!-- end landing page ===== --> */
 
-
-
-
-
-
-
 /* <!-- start features  ============================================================================= --> */
 
 .features {
@@ -156,17 +143,12 @@
 }
 /* <!-- end features  ===== --> */
 
-
-
-
 /* <!-- start Services  ======================================================================= --> */
 
 .serviese {
   padding-top: var(--padding_section);
   padding-bottom: var(--padding_section);
-  /* background-color: red; */
 }
-
 
 .serviese .servises_content {
   display: grid;
@@ -222,12 +204,6 @@
 }
 /* <!-- end Services  ===== --> */
 
-
-
-
-
-
-
 /* start Portfolio==================================================================== */
 .Portfolio {
   padding-top: var(--padding_section);
@@ -261,14 +237,6 @@
 
 /* end Portfolio========== */
 
-
-
-
-
-
-
-
-
 /* start About=============================================================================== */
 .About {
   padding-top: var(--padding_section);
@@ -284,36 +252,29 @@
   .About_content {
     flex-direction: column;
     text-align: center;
-      /* background-color: rgb(171, 173, 159); */
   }
 }
- .About_content .image {
+.About_content .image {
   position: relative;
   width: 100%;
-
   height: 100%;
- 
-  /* background-color: rgb(141, 233, 158); 
-  /* z-index: -50; */
-} 
-
- @media (max-width: 991px) {
-  .About_content image {
-    margin: 0 auto auto 60px;
-  } 
 }
 
- .About_content img {
+@media (max-width: 991px) {
+  .About_content image {
+    margin: 0 auto auto 60px;
+  }
+}
+
+.About_content img {
   width: 250px;
   height: 375px;
-  /* background-color: rgb(233, 141, 187); */
-} 
+}
 
 .About_content .image::before {
   position: absolute;
   content: " ";
-
-    width: 8%;
+  width: 8%;
   height: calc(100% + 80px);
   background-color: var(--section_color);
   top: -40px;
@@ -329,7 +290,7 @@
   border-bottom: solid 80px var(--maincolor);
   right: -150px;
   top: -40px;
-    left: 232px;
+  left: 232px;
   z-index: -1;
 }
 @media (max-width: 991px) {
@@ -353,14 +314,9 @@
 }
 .About_content .text p:last-of-type {
   line-height: 2;
-
   color: #777;
 }
 /* end About========== */
-
-
-
-
 
 /* start Portfolio================================================================ */
 .Contact {
@@ -368,65 +324,54 @@
   padding-bottom: var(--padding_section);
   background-color: var(--section_color);
 }
-t{
-
-}
-.Contact .info{
+.Contact .info {
   padding-top: var(--padding_section);
   padding-bottom: var(--padding_section);
-text-align: center;
+  text-align: center;
 }
-.Contact  .labal{
-font-weight: 800;
-font-size: 30px;
-color: var(--secondcolor);
-margin-bottom: 15px;
-letter-spacing: -2px;
-
+.Contact .labal {
+  font-weight: 800;
+  font-size: 30px;
+  color: var(--secondcolor);
+  margin-bottom: 15px;
+  letter-spacing: -2px;
 }
-.Contact .link{ 
-
-display: block;
-font-weight: 800;
-font-size: 30px;
-
+.Contact .link {
+  display: block;
+  font-weight: 800;
+  font-size: 30px;
   color: var(--maincolor);
   text-decoration: none;
   font-weight: bolder;
-
 }
-.Contact .social  {
+.Contact .social {
   display: flex;
   justify-content: center;
-margin-top: 20px;
-font-size: 16px;
-
+  margin-top: 20px;
+  font-size: 16px;
 }
-.Contact .social  i{
+.Contact .social i {
   margin-left: 10px;
-color: var(--secondcolor);
-
-
+  color: var(--secondcolor);
 }
-@media(max-width: 767px) {
-  .Contact .link , .Contact  .labal{
-font-size: 25px;
-
-
-}}
+@media (max-width: 767px) {
+  .Contact .link,
+  .Contact .labal {
+    font-size: 25px;
+  }
+}
 /* end About========== */
 /* start  footer========== */
-.footer{
+.footer {
   color: white;
   background-color: var(--secondcolor);
   /* height: 200px; */
   padding: 30px 10px;
-  font-size:17px
-;
-text-align: center;
+  font-size: 17px;
+  text-align: center;
 }
-.footer span{
- color: var(--maincolor);
+.footer span {
+  color: var(--maincolor);
   font-weight: bold;
 }
 /* end footer========== */
