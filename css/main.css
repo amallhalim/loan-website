@@ -311,6 +311,7 @@
   /* border-style: solid; */
   /* border-color: var(--maincolor); */
   border: 1px solid var(--maincolor);
+  background-color: var(--maincolor);
   width: 50%;
   height: 0px;
   display: inline-block;
