@@ -299,12 +299,11 @@
     display: none;
   }
   .About_content .text hr {
-  /* border-style: solid; */
-  /* border-color: var(--maincolor); */
+      width: 50%;
+  height: 0px;
   border: 1px solid var(--maincolor);
   background-color: var(--maincolor);
-  width: 50%;
-  height: 0px;
+
   display: inline-block;
 }
 }
@@ -317,12 +316,11 @@
   margin-bottom: 60px;
 }
 .About_content .text hr {
-  /* border-style: solid; */
-  /* border-color: var(--maincolor); */
+ width: 50%;
+height: 0px;
   border: 1px solid var(--maincolor);
   background-color: var(--maincolor);
-  width: 50%;
-  height: 0px;
+ 
   display: inline-block;
 }
 .About_content .text p:last-of-type {
