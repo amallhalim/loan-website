@@ -308,6 +308,7 @@
   margin-bottom: 60px;
 }
 .About_content .text hr {
+  border-style: solid;
   border-color: var(--maincolor);
   width: 50%;
   display: inline-block;
