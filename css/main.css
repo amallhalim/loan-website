@@ -311,6 +311,7 @@
   border-style: solid;
   border-color: var(--maincolor);
   width: 50%;
+  height: 0px;
   display: inline-block;
 }
 .About_content .text p:last-of-type {
