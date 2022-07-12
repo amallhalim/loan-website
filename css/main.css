@@ -298,6 +298,15 @@
   .About_content .image::after {
     display: none;
   }
+  .About_content .text hr {
+  /* border-style: solid; */
+  /* border-color: var(--maincolor); */
+  border: 1px solid var(--maincolor);
+  background-color: var(--maincolor);
+  width: 50%;
+  height: 0px;
+  display: inline-block;
+}
 }
 .About .About_content .text {
   flex-basis: calc(100% - 100px);
