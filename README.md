@@ -2,4 +2,4 @@
 html and css design template 1 alzero web school
 
 
-https://amallhalim.github.io/first-template-loan/#Portfolio
+ https://amallhalim.github.io/loan-website/
